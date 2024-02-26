@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-This module contains the "Square" class
-"""
+"""Defines a square class."""
 from models.rectangle import Rectangle
 
 
@@ -10,6 +8,7 @@ class Square(Rectangle):
 
     def __init__(self, size, x=0, y=0, id=None):
         """Initialize a new Square.
+
         Args:
             size (int): The size of the new Square.
             x (int): The x coordinate of the new Square.
@@ -30,6 +29,7 @@ class Square(Rectangle):
 
     def update(self, *args, **kwargs):
         """Update the Square.
+
         Args:
             *args (ints): New attribute values.
                 - 1st argument represents id attribute
